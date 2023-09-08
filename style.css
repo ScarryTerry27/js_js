@@ -1,0 +1,125 @@
+html {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  font-size: 24px;
+  font-weight: 800;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: teal;
+  color: white;
+  border-bottom: solid 1px grey;
+}
+
+#app {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+button {
+  transition: all linear 0.6s;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+body {
+  position: relative;
+}
+
+.box {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.451);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 500px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+input {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.btnLog {
+  width: 50%;
+  height: 40px;
+  font-size: 24px;
+  background-color: blue;
+  color: white;
+}
+
+#log {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nick {
+  font-style: 24px;
+  color: #fff;
+  font-weight: 500;
+  margin-right: 10px;
+  transition: all ease 0.4s;
+}
+
+.nick:hover {
+  color: crimson;
+}
+
+.ava {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.OUT {
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.OUT:hover {
+  transform: none;
+  color: crimson;
+}
